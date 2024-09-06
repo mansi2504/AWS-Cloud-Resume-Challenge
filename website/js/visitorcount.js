@@ -6,7 +6,7 @@ async function updateCounter() {
         let data = await response.json();
         
         // Ensure `data` is formatted correctly, assuming it's a number
-        counter.innerHTML = `Views: ${data.views}`; // Adjust `data.views` based on the actual structure of the response
+        counter.innerHTML = `${data.views}`; // Adjust `data.views` based on the actual structure of the response
     } catch (error) {
         console.error("Error fetching the counter data:", error);
     }
