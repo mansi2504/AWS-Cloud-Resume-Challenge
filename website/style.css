@@ -57,6 +57,11 @@ header {
     line-height: 2.5rem;
 }
 
+.project-item {
+    margin-bottom: 30px; /* Adjust this value to control the space between projects */
+}
+
+
 .navbar a {
     list-style: none;
     text-decoration: none;
