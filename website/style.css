@@ -114,13 +114,9 @@ header {
 
 /* Section */
 
-.section-profile-h1 {
-    text-shadow: 4px 4px 0 #6fd1bd;
-    transition: text-shadow .2s ease-in-out
-}
 
 .section-profile-h1:hover {
-    text-shadow: -4px -4px 0 salmon
+    text-shadow: -4px -4px 0 rgb(179, 175, 175)
 }
 
 /* Style for views count */
@@ -240,10 +236,13 @@ footer li:hover {
         padding: 0.5rem 0rem;
     }
 
-    .section-profile-h1-sub-h1::before {
-        content: "\a";
-        white-space: pre;
+    .section-profile-h1-sub-h1 {
+        font-family: 'Georgia', serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: #222; /* Darker text color */
     }
+    
 
     .section-profile-h1 {
         font-size: 42px;
